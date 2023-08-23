@@ -1,9 +1,29 @@
 h1{
-    color:red;
+    color:rgb(20,230,5);/* usinf color system*/
 }
 h2{
-    color:blue;
+    color:#ff00ff;/* using hexcolor system*/
 }
 p{
     color:purple ;
+}
+button{
+    color:aqua;
+    background-color: Blue;
+
+}
+label{
+    color:red;
+}
+input{
+    color:brown;
+}
+body{
+    background-color: black;
+}
+#Eg{
+    color:chocolate;
+}
+.cls{
+    color: darkcyan;
 }
