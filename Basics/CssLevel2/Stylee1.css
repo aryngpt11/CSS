@@ -1,0 +1,23 @@
+div{
+    height: 100px;
+    background-color: rgb(162, 135, 47);
+    width: 100px;
+   /*  border: 2px;
+    border-style: solid;
+    border-color: red;  instedad of thios we can writa it*/
+    border:2px solid red;
+    text-align: left;
+    /* border-radius: 50%; 
+    padding-left: 25px;*/
+    padding:1px 2px 5px 4px;
+    margin-left: 155px;
+}
+/* h1{ 
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    border:2px;
+    border-style: dashed;
+    text-align: center;
+    
+} */

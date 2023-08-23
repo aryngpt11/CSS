@@ -1,0 +1,50 @@
+/* #para{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration: line-through;
+    text-decoration: overline;
+    text-decoration: dotted underline;
+    
+   
+}
+#h{
+    font-weight:normal ;
+}
+
+#h1{
+    font-weight:bolder ;
+}
+
+#h2{
+    font-weight:lighter ;
+}
+
+#h3{
+    font-weight:bold ;
+}
+ 
+#one{
+    font-family:'cursive' ;
+}
+
+#p3{
+    font-size: 30px;
+}
+ */
+
+ *{
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ h1{
+    text-align: center;
+    text-transform: capitalize;
+ }
+ #outer{
+    font-size: 25px;
+ }
+ #inner{
+    font-size: 10px;
+ }
