@@ -1,0 +1,26 @@
+/* div{
+    background-color: blue;
+   display:inline; 
+}
+button{
+    background-color: red;
+    display:block; 
+} */
+div{
+    height:100px;
+    width:100px;
+    margin: 25px;
+    padding:25px;
+    /* display: inline;   when we use only this property we donot set the margin and padding so to use margin padding with this we use inline-block tag isntead of usinh this*/
+    display:inline-block;
+}
+#b1{
+    background-color: red;
+}
+#b2{
+    background-color: yellow;
+    visibility:hidden;
+}#b3{
+    background-color: green;
+    color:rgba(0,0,255,1);
+}
