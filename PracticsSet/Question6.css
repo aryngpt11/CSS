@@ -1,0 +1,9 @@
+div{
+    height:300px;
+    width:300px;
+    background-image: url("../PracticsSet/Lionimg.jpeg");
+    background-size: cover;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
