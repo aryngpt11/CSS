@@ -1,0 +1,45 @@
+body{
+    text-align:center;
+}
+
+div{
+    height:100px;
+    width:150px;
+    display:inline-block;
+    border:2px solid black;
+} 
+#Container{
+    width:600px;
+    height:600px;
+    border:2px solid black;
+     display:flex; 
+    /* flex-direction: row-reverse; */
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+
+}
+#B1{
+    background-color: red;
+
+}
+#B2{
+    background-color: yellow;
+    height:200px;
+
+}
+#B3{
+    background-color: green;
+    height:75px;
+
+}
+#B4{
+    background-color: blue;
+
+}
+#B5{
+    background-color: pink;
+
+}
