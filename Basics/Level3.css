@@ -12,3 +12,43 @@
     font-size: 2em;
     width:5rem;
 } */
+
+ div
+{
+    height:100px;
+    width:100px;
+    background-color: aqua;
+    border:2px solid black;
+    display:inline-block;
+}
+#box1 {
+    background-image: url("../PracticsSet/Lionimg.jpeg");
+    background-size: cover;
+}
+/*
+#box1
+{
+    position:static;
+}
+#box2
+{
+    position:relative;
+    top:20px;
+    left:10px;
+    z-index: 1;
+}
+#box3{
+    position:absolute;
+    top:500px;
+    left:20px;
+}
+#box4{
+    position:fixed;
+    /* right:10px; */
+     top: 50px; 
+  /*   bottom:0;
+     width:100%;
+    width:100vw; */
+    z-index:-3;
+    
+} */
