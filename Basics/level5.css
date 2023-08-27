@@ -3,15 +3,27 @@ div{
     width:100px;
     background-color: aquamarine;
     border:2px solid black;
-    transition-property: all;
+    position:absolute;
+    top:100px;
+    left:100px;
+    /* transition-property: all;
     transition-duration: 2s;
     transition-timing-function:steps(5);
-    transition-delay:1s;
-}
+    transition-delay:1s; 
+    transition:all 2s ease-in 1s; 
+    transform: rotate(180deg);
+    transform:scale(0.5);
+    transform:scale(1,2);*/
+    /* transition:all 2s ease-in; */
+    transition-duration: 2s;
+} 
 div:hover{
-    background-color: red;
+   /*  background-color: red;
     color:white;
-    font-size: 20px;
+    font-size: 20px; 
+    transform:scaleY(2);
+    transform:rotate(360deg);*/
+    transform:translateY(50px)
 }
 div:active{
     background-color: pink;
