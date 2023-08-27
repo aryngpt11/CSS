@@ -5,7 +5,7 @@ div{
 }
 @media(width:600px){
     div{
-        background-color: red;
+        background-color: red; 
     }
 } 
 
