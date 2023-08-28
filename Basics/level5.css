@@ -23,7 +23,7 @@ div{
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse; 
        animatiomn shorthand*/
-       animation:coloranimate 2s ease-in 3s infinite reverse;
+       animation:coloranimate 3s ease-in 3s infinite reverse;
 
   
 } 
@@ -35,11 +35,15 @@ div{
     to{
         background-color: red;
     } */
-    from{
+    0%{
         left:0px;
         background-color: yellow;
     }
-    to{
+    50%{
+        
+        background-color: blue;
+    }
+    100%{
        left:200px;
        background-color: red;
     }
