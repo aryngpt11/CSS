@@ -14,18 +14,50 @@ div{
     transform: rotate(180deg);
     transform:scale(0.5);
     transform:scale(1,2);*/
-    /* transition:all 2s ease-in; */
-    transition-duration: 2s;
+    /* transition:all 2s ease-in; 
+    transition-duration: 2s;*/
+    /* animation-name: coloranimate;
+    animation-duration: 3s;
+    /* animation-timing-function: ease-in; 
+    animation-delay:0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; 
+       animatiomn shorthand*/
+       animation:coloranimate 2s ease-in 3s infinite reverse;
+
+  
 } 
+
+@keyframes coloranimate{
+    /* from{
+        background-color: aquamarine;
+    }
+    to{
+        background-color: red;
+    } */
+    from{
+        left:0px;
+        background-color: yellow;
+    }
+    to{
+       left:200px;
+       background-color: red;
+    }
+
+}
 div:hover{
    /*  background-color: red;
     color:white;
     font-size: 20px; 
     transform:scaleY(2);
-    transform:rotate(360deg);*/
-    transform:translateY(50px)
+    transform:rotate(360deg);
+    transform:translateY(200px)
+    transform:translate(200px,80px);
+    transform:skew(-30deg); */
 }
-div:active{
+/* div:active{
     background-color: pink;
-    color:blue;
-}
+     color:blue;
+    transform:skew(30deg);  
+
+} */
